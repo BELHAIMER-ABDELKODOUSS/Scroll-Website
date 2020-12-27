@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #17181a;
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+}
+#logo {
+    color: white;
+    font-family: "Abril Fatface", sans-serif;
+}
+.nav-header {
+    min-height: 10vh;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 2rem 0rem;
+}
+.line {
+    width: 3rem;
+    height: 0.3rem;
+    margin: 0.4rem;
+    background: white;
+    pointer-events: none;
+}
+.slide {
+    min-height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.hero-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 25rem;
+    padding-left: 5rem;
+    position: relative;
+}
+.hero-img {
+    position: relative;
+    flex: 1 1 25rem;
+    overflow: hidden;
+}
+.hero-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.title h2 {
+    font-size: 5rem;
+    font-family: "Abril Fatface", sans-serif;
+}
+.mountain-span {
+    color: #567ce4;
+}
+.hike-span {
+    color: #a76ee7;
+}
+.fashion-span {
+    color: #ff8b5d;
+}
+.hero-desc p {
+    font-size: 1.5rem;
+    padding: 3rem 0;
+    color: rgb(228, 228, 228);
+}
+.explore {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    border: 1px solid white;
+    align-self: flex-start;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-bar {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 1;
+    clip-path: circle(50px at 100% -10%);
+}
+.burger {
+    cursor: pointer;
+}
+.nav-links {
+    flex-basis: 30rem;
+}
+.nav-links h3 {
+    font-size: 3rem;
+    padding: 1rem 0;
+}
+.contact {
+    flex-basis: 30rem;
+}
+.contact h2 {
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+.contact p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.reveal-img,
+.reveal-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #17181a;
+    left: 0;
+    top: 0;
+}
+.cursor {
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+.scrollmagic-pin-spacer {
+    position: static !important;
+}
